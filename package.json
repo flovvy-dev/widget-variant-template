@@ -1,0 +1,18 @@
+{
+    "name": "widget-variant-template",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "A template repository for building Flovvy widget variants based on the `@flovvy/widget-variant-core` package.",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "devDependencies": {
+        "@sentry/vite-plugin": "^4.6.0",
+        "vite": "^7.0.0"
+    },
+    "dependencies": {
+        "@flovvy/widget-variant-core": "file:../widget-variant-core"
+    }
+}
